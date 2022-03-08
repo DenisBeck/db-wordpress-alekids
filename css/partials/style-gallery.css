@@ -1,0 +1,5 @@
+/* ----------------- SHOP ----------------- */
+.gallery-slider__content {
+  display: flex;
+  flex-wrap: wrap;
+}

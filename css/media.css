@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .logo__img {
+        display: none;
+    }
+    .logo__text {
+        display: block;
+    }
+    .menu-item__user-actions_location {
+        display: none;
+    }
+    .header-top {
+        flex-wrap: wrap;
+    }
+    .menu__header-top {
+        order: 10;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        width: 34px;
+        height: 3px;
+        border-radius: 3px;
+        background-color: #2F3035;
+    } 
+    .menu__user-actions {
+        margin-right: 0;
+    }
+}

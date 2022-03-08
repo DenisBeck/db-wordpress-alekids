@@ -1,0 +1,21 @@
+/* ----------------- FONTS ----------------- */
+.blog__content {
+  font-family: "RobotoRegular", sans-serif;
+}
+
+/* ----------------- BLOG ----------------- */
+.blog__content {
+  color: #7d7d7d;
+  margin-bottom: 28px;
+  line-height: 26px;
+}
+.blog__item--blog {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.blog__item--blog:nth-child(4) {
+  width: 66%;
+}
+.blog__list--blog {
+  flex-wrap: wrap;
+}
