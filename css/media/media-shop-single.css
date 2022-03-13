@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+  .shop-single__product {
+    flex-direction: column;
+  }
+  .shop-single__desc,
+  .shop-single__image {
+    width: 100%;
+  }
+  .shop-single__desc {
+    order: 2;
+  }
+  .shop-single__menu-item:nth-child(2),
+  .shop-single__tab-item:nth-child(2) {
+    display: none;
+  }
+}

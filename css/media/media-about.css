@@ -1,0 +1,50 @@
+@media (max-width: 1160px) {
+  .achievements,
+  .dreamteam {
+    background-size: cover;
+  }
+  .history__head-part {
+    font-size: 36px;
+  }
+  .dreamteam__image {
+    padding: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .description__list,
+  .history__list {
+    flex-wrap: wrap;
+  }
+  .achievements__list,
+  .dreamteam__list,
+  .socials__list {
+    flex-direction: column;
+  }
+  .achievements__item {
+    margin-bottom: 25px;
+  }
+  .history__head-part {
+    font-size: 28px;
+  }
+  .history__item {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .dreamteam__item {
+    margin-bottom: 170px;
+    align-self: center;
+    width: 80%;
+    border-radius: 30px;
+  }
+
+  .socials__item {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .history__head-part {
+    font-size: 24px;
+  }
+}

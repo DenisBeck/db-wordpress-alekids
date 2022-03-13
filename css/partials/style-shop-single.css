@@ -156,6 +156,7 @@
   padding: 10px 15px;
   background: #ffd3bd;
   font-size: 22px;
+  cursor: pointer;
 }
 .shop-single__tab-list {
   border: 4px dashed #ffd3bd;

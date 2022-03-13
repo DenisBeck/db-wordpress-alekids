@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .gallery__item {
+    width: 100%;
+  }
+  .gallery-slider__block {
+    flex-direction: column;
+  }
+}

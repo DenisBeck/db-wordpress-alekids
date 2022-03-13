@@ -23,6 +23,27 @@
   max-width: 1180px;
   margin: 0 auto;
 }
+.slick-dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  margin: 100px auto;
+}
+.slick-dots li {
+  margin: 20px 30px;
+  cursor: pointer;
+}
+.slick-dots li button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #b3d0fd;
+  cursor: pointer;
+}
+.slick-dots .slick-active button {
+  color: #ffa1ac;
+}
 
 /* ----------------- FONTS ----------------- */
 body,
@@ -115,6 +136,7 @@ a {
 .top-slider__list {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .top-slider__item {
   width: 100%;
@@ -140,7 +162,37 @@ a {
   margin: 0 0 34px;
   color: #7d7d7d;
 }
-
+.slider__prev-arrow,
+.slider__next-arrow {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100px;
+  width: 90px;
+  border: none;
+  outline: none;
+  background: transparent
+    url("../images/left-arrow-hand-drawn-triangular-shape\ 1.png") center center
+    no-repeat;
+  cursor: pointer;
+}
+.slider__next-arrow {
+  background-image: url("../images/left-arrow-hand-drawn-triangular-shape\ 2.png");
+  right: -100px;
+  left: auto;
+}
+.slider__prev-arrow--below,
+.slider__next-arrow--below {
+  top: auto;
+  bottom: 0;
+}
+.slider__next-arrow--below {
+  right: 0;
+}
+.slider__prev-arrow--below {
+  left: 0;
+}
 /* ----------------- CLASSES ----------------- */
 .classes {
   margin-bottom: 140px;
@@ -375,6 +427,9 @@ a {
 .about__image {
   width: 49%;
 }
+.about__image img {
+  width: 100%;
+}
 .about__desc {
   padding-left: 100px;
   box-sizing: border-box;
@@ -474,13 +529,17 @@ a {
 .shop-slider {
   width: 75%;
   margin: 0 auto;
+  position: relative;
 }
 .shop-slider__list {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .shop-slider__item {
-  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 /* .shop
 .shop-slider__text
@@ -490,6 +549,14 @@ a {
 
 /* ----------------- GALLERY ----------------- */
 .gallery {
+  margin-bottom: 50px;
+}
+.gallery-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery .gallery-slider__block {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -649,7 +716,7 @@ a {
 .blog__archive-link {
   margin: auto 0 65px;
 }
-.blog__list {
+.blog .blog__list {
   display: flex;
   justify-content: space-between;
   margin-bottom: 150px;

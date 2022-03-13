@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+  .contacts-map__info {
+    flex-direction: column;
+  }
+  .contacts-map__info div {
+    width: 100%;
+  }
+  .socials-contacts__item {
+    width: 100%;
+    margin: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+  .sidebar,
+  .shop__item {
+    display: none;
+  }
+  .shop__item:first-child {
+    display: block;
+    width: 100%;
+  }
+}

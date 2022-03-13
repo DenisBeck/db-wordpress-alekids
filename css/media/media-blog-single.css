@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  main {
+    padding: 0 5px;
+  }
+  .comments__item:nth-child(2) {
+    margin-left: 50px;
+  }
+  .blog-single__extra-images {
+    flex-direction: column;
+  }
+}

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Shop</title>
 </head>
 
@@ -42,72 +44,127 @@
         <section class="shop">
             <div class="wrapper wrapper-shop">
                 <div class="shop-slider">
-                    <div class="shop-slider__content">
-                        <div class="shop__filter"><span class="shop__search-result">Showing 1–9 of 12 results</span><span class="shop__sort">Sort by latest</span></div>
-                        <ul class="shop__list">
-                            <li class="shop__item">
-                                <img src="images/1498618_935xp 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">5</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/1920x 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">2</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">4</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/1920x 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">3</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">2</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/1498618_935xp 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">5</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/1498618_935xp 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">5</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/1920x 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">2</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                            <li class="shop__item">
-                                <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
-                                <div class="shop__text">Book example for children</div>
-                                <div class="shop__price">$<span class="shop__price-value">4</span></div>
-                                <button class="shop__add-card"></button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="shop-slider__pagination">
-                        <ul class="shop-pagination__list">
-                            <li class="shop-pagination__item"><a class="shop-pagination__link" href=""></a></li>
-                            <li class="shop-pagination__item"><a class="shop-pagination__link" href=""></a></li>
-                            <li class="shop-pagination__item"><a class="shop-pagination__link" href=""></a></li>
-                            <li class="shop-pagination__item"><a class="shop-pagination__link" href=""></a></li>
-                        </ul>
+                    <div class="slider__content">
+                        <div class="shop-slider__item">
+                            <div class="shop__filter"><span class="shop__search-result">Showing 1–9 of 12 results</span><span
+                                    class="shop__sort">Sort by latest</span></div>
+                            <ul class="shop__list">
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">4</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">3</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">4</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shop-slider__item">
+                            <div class="shop__filter"><span class="shop__search-result">Showing 1–9 of 12 results</span><span
+                                    class="shop__sort">Sort by latest</span></div>
+                            <ul class="shop__list">
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">4</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">3</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1498618_935xp 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">5</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/1920x 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">2</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                                <li class="shop__item">
+                                    <img src="images/f0d467ef711b9e661063df76072945d8 1.png" alt="">
+                                    <div class="shop__text">Book example for children</div>
+                                    <div class="shop__price">$<span class="shop__price-value">4</span></div>
+                                    <button class="shop__add-card"></button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <aside class="sidebar">

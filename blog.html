@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Blog</title>
 </head>
 
@@ -41,68 +43,167 @@
         </div>
         <section class="blog">
             <div class="wrapper">
-                <div class="blog-slider">
-                        <div class="blog-slider__content">
-                            <ul class="blog__list blog__list--blog">
-                                <li class="blog__item blog__item--blog">
-                                    <img src="images/Rectangle 15.png" alt="">
-                                    <div class="blog__category">Education</div>
-                                    <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
-                                            class="blog__info">September</span> 2022</div>
-                                    <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
-                                    <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
-                                    <a class="blog__link" href="">Read More</a>
-                                </li>
-                                <li class="blog__item blog__item--blog">
-                                    <img src="images/Rectangle 16.png" alt="">
-                                    <div class="blog__category">Education</div>
-                                    <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
-                                            class="blog__info">September</span> 2022</div>
-                                    <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
-                                    <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
-                                    <a class="blog__link" href="">Read More</a>
-                                </li>
-                                <li class="blog__item blog__item--blog">
-                                    <img src="images/Rectangle 17.png" alt="">
-                                    <div class="blog__category">Education</div>
-                                    <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
-                                            class="blog__info">September</span> 2022</div>
-                                    <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
-                                    <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
-                                    <a class="blog__link" href="">Read More</a>
-                                </li>
-                                <li class="blog__item blog__item--blog">
-                                    <img src="images/Rectangle10.png" alt="">
-                                    <div class="blog__category">Games</div>
-                                    <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
-                                            class="blog__info">September</span> 2022</div>
-                                    <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
-                                    <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.</p>
-                                    <a class="blog__link" href="">Read More</a>
-                                </li>
-                                <li class="blog__item blog__item--blog">
-                                    <img src="images/Rectangle11.png" alt="">
-                                    <div class="blog__category">Education</div>
-                                    <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
-                                            class="blog__info">September</span> 2022</div>
-                                    <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
-                                    <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
-                                    <a class="blog__link" href="">Read More</a>
-                                </li>
-                            </ul>
-                        </div>
-                    <div class="blog-slider__pagination">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
+                <div class="slider__content">
+                    <ul class="slider__block blog__list blog__list--blog">
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 15.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 16.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 17.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle10.png" alt="">
+                            <div class="blog__category">Games</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle11.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                    </ul>
+                    <ul class="slider__block blog__list blog__list--blog">
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 15.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 16.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 17.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle10.png" alt="">
+                            <div class="blog__category">Games</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus
+                                tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque
+                                viverra elit amet. Netus tellus tortor non eu.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle11.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                    </ul>
+                    <ul class="slider__block blog__list blog__list--blog">
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 15.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 16.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle 17.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle10.png" alt="">
+                            <div class="blog__category">Games</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque viverra elit amet. Netus
+                                tellus tortor non eu. Turpis eu sit metus, id sed id sit a aliquet. Proin nisl nibh egestas pellentesque
+                                viverra elit amet. Netus tellus tortor non eu.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                        <li class="blog__item blog__item--blog">
+                            <img src="images/Rectangle11.png" alt="">
+                            <div class="blog__category">Education</div>
+                            <div class="blog__author">By <span class="blog__info">admin</span> posted on <span
+                                    class="blog__info">September</span> 2022</div>
+                            <div class="blog__text">Lorem ipsut sit amet dollar isset</div>
+                            <p class="blog__content">Proin nisl nibh egestas pellentesque viverra elit amet. Netus tellus tortor non eu.
+                                Turpis eu sit metus, id sed id sit a aliquet.</p>
+                            <a class="blog__link" href="">Read More</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
     <footer class="footer">
         <div class="footer-top">
             <div class="footer-top__item footer-logo">

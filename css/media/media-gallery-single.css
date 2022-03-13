@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+  .gallery-single__product {
+    flex-direction: column;
+  }
+  .gallery-single__desc,
+  .gallery-single__image {
+    width: 100%;
+  }
+  .gallery-single__desc {
+    order: 2;
+  }
+  .gallery-single__quotes {
+    width: 80%;
+  }
+}

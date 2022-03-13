@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .blog__item {
+    display: none;
+  }
+  .blog__item:first-child {
+    display: block;
+  }
+}
